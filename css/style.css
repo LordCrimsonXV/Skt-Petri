@@ -1,0 +1,379 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+h2{
+    text-transform:uppercase;
+}
+@media screen and (max-height: 480px) {
+    .grid-container {
+        grid-template-areas:
+            'row1_col1 row1_col2'
+            'row2_col1 row2_col2'
+            'row3_col1 row3_col2'
+            'row4_col1 row4_col2'
+            'row5_col1 row5_col2';
+    }
+}
+.grid-container {
+    display: grid;
+    grid-row-gap: 60px;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    padding: 0px;
+        grid-template-areas:
+        'row1_col1 row1_col2 row2_col1' 
+        'row2_col2 row3_col1 row3_col2'
+        'row4_col1 row4_col2 row5_col1';
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 500px;
+
+}
+
+    .grid-item {
+        width: 356px;
+        height: 355px;
+        text-align: center;
+    }
+
+    .grid-item-text {
+        background-color: #DDD7CB;
+        text-align: center;
+        width: 356px;
+        height: 355px;
+        text-align: center;
+    }
+
+    footer {
+        background-color: #1C1C1C;
+        padding: 55px 0px 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .footer-list {
+        font-family: 'Yeseva One',cursive;
+        text-transform: uppercase;
+        display: block;
+        letter-spacing: 1px;
+        margin-top: 5px;
+        text-decoration: underline;
+        color: white;
+        text-decoration: none;
+    }
+
+        .footer-list:hover {
+            text-decoration: underline;
+        }
+
+    body {
+        background-color: white;
+        margin: 0px;
+    }
+
+
+    header {
+        background-image: url("../images/Skt Petri.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+        background-attachment: fixed;
+        background-position: 50%;
+        height: 790px;
+        margin: 0px;
+    }
+
+    #logo {
+        height: 62px;
+        width: 160px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    #symbol {
+        vertical-align: middle;
+    }
+
+    li {
+        display: inline;
+    }
+
+    .nav-bar {
+        background-color: #e8e0d8;
+        justify-content: center;
+        width: 100%;
+        height: 93%;
+    }
+
+
+    .nav-button {
+        color: #7d7d7d;
+        background-color: #e8e0d8;
+        font-family: 'Yeseva One',cursive;
+        font-size: 21px;
+        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+        text-transform: uppercase;
+    }
+
+    .container {
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #notepad {
+        vertical-align: middle;
+        margin-left: 300px;
+    }
+
+    #intro_textbox {
+        margin-left: 20px;
+        margin-right: 300px;
+    }
+
+    #follow-div {
+        text-align: center;
+    }
+
+    .map-nav {
+        background-color: #4D738A;
+        color: white;
+        font-family: 'Yeseva One',cursive;
+        text-align: center;
+        font-size: 16px;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .footer-mid {
+        color: white;
+        text-decoration: none;
+    }
+
+    #intro_heading {
+        color: #896d4a;
+        font-family: sans-serif;
+    }
+
+    #intro_para {
+        color: #514f4d;
+    }
+
+    .btn {
+        padding: 6px 16px;
+        background-color: #e8e0d8;
+        font-size: 16px;
+        border: none;
+        font-family: 'Yeseva One',cursive;
+    }
+
+    #rooms {
+        background-color: #e8e0d8;
+        color: #4a4539;
+        margin-top: 10px;
+    }
+
+    #book {
+        background-color: #166936;
+        margin-left: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .mid_container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .img {
+        padding: 0px;
+        background-repeat: no-repeat;
+        width: 356px;
+        height: 425px;
+        position: relative;
+    }
+
+    #tea {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/teainbed.jpg');
+        grid-area:row1_col1;
+    }
+
+    .img_heading {
+        margin-top: 150px;
+        color: white;
+        vertical-align: middle;
+        text-align: center;
+        font-family: 'Yeseva One',cursive;
+        font-size: 24px;
+        line-height: 1.628571429;
+    }
+
+    .img_paragraph {
+        margin-top: 10px;
+        color: white;
+        word-wrap: break-word;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.628571429;
+    }
+
+    .text_heading {
+        font-family: Yeseva One,sans-serif;
+        font-size: 24px;
+        text-align: center;
+        box-sizing: border-box;
+        margin-top: 100px;
+    }
+
+    .text_paragraph {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 1.628571429;
+        text-align: center;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+
+#pen {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/penonpad.jpg);
+    grid-area: row1_col2;
+}
+
+#safety {
+    grid-area: row2_col1;
+}
+
+#gifts {
+    grid-area: row2_col2;
+}
+
+#tree {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tree.jpg);
+    grid-area: row3_col1
+}
+
+#sofa {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/sofa.jpg);
+    grid-area: row3_col2;
+}
+
+#toy {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/toy.jpg);
+    grid-area: row4_col1;
+}
+
+#food {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/food.jpg);
+    grid-area: row4_col2;
+}
+
+#the-news {
+    grid-area: row5_col1;
+}
+
+    #news {
+        background-color: #F7F7F7;
+        margin-left: 300px;
+    }
+
+    #news_heading {
+        color: #896d4a;
+        font-family: 'Roboto Slab', serif;
+        font-size: 18px;
+    }
+
+    #email {
+        padding: 6px 8px;
+        width: 175px;
+        height: 34.8px;
+    }
+
+    #email_register {
+        color: #896d4a;
+        text-decoration: underline;
+        font-family: 'Yeseva One',cursive;
+        width: 90px;
+        height: 26px;
+        background-color: white;
+        border: none;
+        font-size: 16px;
+        overflow: hidden;
+    }
+
+    #tripadvisor_logo_box {
+        background-color: #F7F7F7;
+        width: 363px;
+        height: 150px;
+        vertical-align: middle;
+        background-image: src('./images/Trip Advisor Logo.png/');
+        margin-right: 300px;
+    }
+
+    #tripadvisor_logo {
+        vertical-align: middle;
+        align-content: center;
+        align-items: center;
+    }
+
+
+    #map {
+        background-color: red;
+        background-image: url("../images/location.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        height: 535px;
+        margin: 0px;
+    }
+
+    .follow {
+        color: #4a4539;
+        font-weight: bolder;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    #footer {
+        color: white;
+    }
+
+    .footer-ul {
+        display: block;
+    }
+
+    .footer-img {
+        margin-right: 20px;
+    }
+
+    .Read {
+        color: #896d4a;
+        text-transform: uppercase;
+    }
