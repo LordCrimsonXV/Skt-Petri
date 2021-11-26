@@ -11,13 +11,13 @@
 h2{
     text-transform:uppercase;
 }
-#github-div {
+.github-div {
     text-align: center;
     font-family: sans-serif;
     font-size: 24px;
     background-color: #e8e0d8;
 }
-#github-link{
+.github-link{
     color:black;
 }
 
