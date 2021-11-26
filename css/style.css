@@ -21,15 +21,6 @@ h2{
             'row5_col1 row5_col2';
     }
 }
-#github-div {
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 24px;
-    background-color: #e8e0d8;
-}
-#github-link {
-    color:black;
-}
 .grid-container {
     display: grid;
     grid-row-gap: 60px;
@@ -68,6 +59,17 @@ h2{
         justify-content: space-between;
     }
 
+
+#github-div {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    background-color: #e8e0d8;
+}
+
+#github-link {
+    color:black;
+}
 
     .footer-list {
         font-family: 'Yeseva One',cursive;
